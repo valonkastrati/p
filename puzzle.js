@@ -27,6 +27,8 @@ function initBoard(e){
         w300 = 300;
     else
         w300 = 180;
+
+    w300 = 180;
     //w300 = 600;
     panel.style.width = w300 + unit;
     panel.style.height = w300 + unit;
