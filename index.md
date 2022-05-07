@@ -10,11 +10,12 @@
     <div class="container">
         <h1>Tile Puzzle</h1>
         <div id="level">
-            <button id="btnMix" onclick="MixItNow(this)" class="btn btn1">Perzieje</button>
             
             <button id="btn1" onclick="initBoard(this)" class="btn btn1">3x3</button>
             <button id="btn2" onclick="initBoard(this)" class="btn btn1">4x4</button>
             <button id="btn3" onclick="initBoard(this)" class="btn btn1">5x5</button>
+
+            <button id="btnMix" onclick="MixItNow(this)" class="btn btn1">Perzieje</button>
 
             <input type="file" id="getval" hidden />
             <label for="getval" class="label">Zgjidhni nje fotografi</label>
