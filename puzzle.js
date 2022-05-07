@@ -1,8 +1,8 @@
 //var unit = "%";
 var unit = "px";
-var w300 = 300;
+var w300 = 180;
 var n = 3;
-var tileSize = 100;
+var tileSize = 60;
 var board = [,];
 var tileZero; //Pos
 var mixing = false;
